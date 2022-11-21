@@ -1,29 +1,35 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import CustomLink from '../../CustomLink/CustomLink';
+import './Navbar.css'
+
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
             <div className="container">
-                <a className="navbar-brand" href="#">Creativo</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
+                <Link className="navbar-brand fs-3 fw-semibold text-black" to='/'>PhotographerMart</Link> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" className="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Home</a>
+                            <CustomLink className="navbar-brand me-4 fs-6" to='/home'>Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <CustomLink className="navbar-brand me-4 fs-6" to='/images'>Images</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
+                            <CustomLink className="navbar-brand me-4 fs-6" to='/services'>Services</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Services</a>
+                            <CustomLink className="navbar-brand me-4 fs-6" to='/blog'>Blog</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <CustomLink className="navbar-brand fs-6" to='/about'>About</CustomLink>
                         </li>
                     </ul>
                 </div>
+                <Link to='/signin'><Button variant="outline-warning">Signin</Button></Link>
             </div>
         </nav>
     );

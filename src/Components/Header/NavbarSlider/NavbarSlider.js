@@ -16,22 +16,22 @@ const NavbarSlider = () => {
                     <div className="carousel-item active">
                         <img src={hero1} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5>Landspace Photography</h5>
+                            <p>Photograhy is the art of capturing ligh with a camera, usually via a digital sensor or file, to create an image with the right camera.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={hero2} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5>Wildlife Photography</h5>
+                            <p>Photograhy is the art of capturing ligh with a camera, usually via a digital sensor or file, to create an image with the right camera.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={hero3} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5>Travel Photography</h5>
+                            <p>Photograhy is the art of capturing ligh with a camera, usually via a digital sensor or file, to create an image with the right camera.</p>
                         </div>
                     </div>
                 </div>
