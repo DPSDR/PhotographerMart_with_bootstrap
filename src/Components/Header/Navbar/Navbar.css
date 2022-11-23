@@ -1,0 +1,8 @@
+.header-bg {
+    background-color: rgb(92 60 60);
+    transition: all 0.5s;
+}
+
+.header-color {
+    color: white;
+}

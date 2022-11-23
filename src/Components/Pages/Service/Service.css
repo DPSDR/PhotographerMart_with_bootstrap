@@ -1,0 +1,8 @@
+.readMoreLess {
+    color: rgb(249, 165, 26);
+    cursor: pointer;
+}
+
+.readMoreLess:hover {
+    text-decoration: underline;
+}
