@@ -5,7 +5,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const [data] = useData();
     return (
-        <div className="container" style={{ marginTop: '6rem' }}>
+        <div className="container mb-5" style={{ marginTop: '6rem' }}>
             <h2 className='text-secondary'>Types of services..</h2>
             <div className='row g-5 mt-1'>
                 {

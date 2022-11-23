@@ -33,19 +33,19 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <CustomLink className="navbar-brand me-4 fs-6" to='/home'>Home</CustomLink>
+                            <CustomLink className="navbar-brand me-4" to='/home'>Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink className="navbar-brand me-4 fs-6" to='/images'>Images</CustomLink>
+                            <CustomLink className="navbar-brand me-4" to='/images'>Images</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink className="navbar-brand me-4 fs-6" to='/services'>Services</CustomLink>
+                            <CustomLink className="navbar-brand me-4" to='/services'>Services</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink className="navbar-brand me-4 fs-6" to='/blog'>Blog</CustomLink>
+                            <CustomLink className="navbar-brand me-4" to='/blog'>Blog</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink className="navbar-brand me-4 fs-6" to='/about'>About</CustomLink>
+                            <CustomLink className="navbar-brand me-4" to='/about'>About</CustomLink>
                         </li>
                     </ul>
                     <Link to='/signin'><Button variant="outline-warning">Signin</Button></Link>

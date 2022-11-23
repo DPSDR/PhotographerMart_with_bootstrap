@@ -8,11 +8,11 @@ import About from './Components/Pages/About/About'
 import Navbar from './Components/Header/Navbar/Navbar';
 import Signin from './Components/Login/SignIn/SignIn';
 import SignUp from './Components/Login/SignUp/SignUp';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="">
-      <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
@@ -23,6 +23,8 @@ function App() {
         <Route to='/signin' element={<Signin></Signin>}></Route>
         <Route to='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
+      <Navbar></Navbar>
+      <Footer></Footer>
     </div>
   );
 }
