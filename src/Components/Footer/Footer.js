@@ -13,8 +13,8 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-4 col-sm-12" style={{ marginTop: "2rem" }}>
-                        <p className='ms-4 text-white'>Quick Links</p>
-                        <ul className="" style={{ listStyleType: 'none' }}>
+                        <p className='md-ms-4 text-white'>Quick Links</p>
+                        <ul className="ps-0" style={{ listStyleType: 'none' }}>
                             <li>
                                 <CustomLink to='/home'>Home</CustomLink>
                             </li>
@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className="col-md-6">
                         <p className='mb-0'>Copyright &copy; 2022 React Project. All Rights Reserved. | Theme design by Dipta</p>
                     </div>
-                    <div className="col-md-6 text-end">
+                    <div className="col-md-6 md-text-end">
                         Terms and conditions | Privacy Policy
                     </div>
                 </div>

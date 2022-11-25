@@ -1,0 +1,30 @@
+.website-btn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.1px;
+    color: #f0ad4e;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    padding: 28px 80px 28px 80px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #f0ad4e;
+    transition: all 0.5s ease-in-out;
+}
+
+.website-btn:hover {
+    color: black;
+    background-color: #f0ad4e;
+    transform: scale(1.1);
+}
+
+.intro-section {
+    background-image: url('https://i.ibb.co/3y77WgP/section-1.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 100%;
+    background-size: contain;
+}
