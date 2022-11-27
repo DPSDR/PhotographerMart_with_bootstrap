@@ -5,7 +5,7 @@ import CustomLink from '../CustomLink/CustomLink';
 const Footer = () => {
     return (
         <div style={{ backgroundColor: '#5c3c3c' }}>
-            <div className="container text-center" style={{ color: '#ffffffb0' }}>
+            <div className="container text-center mt-5" style={{ color: '#ffffffb0' }}>
                 <div className="row text-start">
                     <div className="col-md-4 col-sm-12 mt-4">
                         <Link className="fs-3 text-white text-decoration-none fw-semibold" to='/'>PhotographerMart</Link>

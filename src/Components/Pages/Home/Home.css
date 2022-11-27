@@ -28,3 +28,19 @@
     max-width: 100%;
     background-size: contain;
 }
+
+.elementor-icon-box-icon {
+    margin-right: 26px;
+}
+
+.elementor-icon {
+    color: #e6ae4a;
+    font-size: 63px;
+}
+
+.elementor-icon i {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}

@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "name": "Landscape",
+        "name": "Landscape Photography",
         "description": "Landscape photography is another way of saying scenic or environmental photography. It involves taking pictures of a natural scene often large and grand, but sometimes smaller and more intimate in a way that brings the viewer into a scene. Landscape photography is one of the most popular types today, spinning off several sub-genres such as storm photography, seascapes, and so on. With a broader definition, it also includes “urban landscape” photography and manmade scenes.",
         "img": "https://i.ibb.co/714ddNZ/fd1.jpg"
     },
     {
         "id": 2,
-        "name": "Wildlife",
+        "name": "Wildlife Photography",
         "description": "Wildlife photography can bring out some of the most intense photographers you'll meet people who might spend hours on end waiting for an animal to wander into the perfect spot, or search for creatures that most people would rather try to avoid. But it's also something you can practice in your own backyard, or a short drive from where you live, since there are animals to be found everywhere. From time to time, you'll see a photo series of urban wildlife that rivals the best images captured in more remote locations.",
         "img": "https://i.ibb.co/WKb6Byx/fd2.jpg"
     },
     {
         "id": 3,
-        "name": "Macro",
+        "name": "Macro Photography",
         "description": "One of the most accessible types of photography is macro, the art of capturing small creatures and objects that we ordinarily overlook. Macro photography is usually associated with images of bugs and flowers, but even subjects like snowflakes or water droplets in the studio can make for amazing macro photos. A related style of photography is simply “close-up” photography, which might not be as magnified as true macro work, but still isolates a small slice of the world that otherwise may not stand out.",
         "img": "https://i.ibb.co/vccd9bs/fd3.jpg"
     },
     {
         "id": 4,
-        "name": "Underwater",
+        "name": "Underwater Photography",
         "description": "It isn't always easy to take underwater photos, even if you live in the right location for it. Not only do you need a good waterproof camera, but you also need some specific lighting equipment the moment you start taking photos more than a short distance from the surface. Add in scuba gear and the requisite training for longer dives, and you can see why this is one of the trickier genres to start practicing. But if you put in the money and effort, you'll end up with photos that not nearly as many people are taking today. Underwater photography spans everything from wildlife and macro to portraits that are striking to the eye.",
         "img": "https://i.ibb.co/TBX32HQ/fd4.jpg"
     },
@@ -31,7 +31,7 @@
     },
     {
         "id": 6,
-        "name": "Portraits",
+        "name": "Portraits Photography",
         "description": "The broadest type of people photography is portraiture, covering everything from family portraits to fine-art photography and commercial work. Often, the goal of portraiture is to show the character of a subject  to capture the person's personality and emotion in an image. Portrait photography is also quite an accessible genre overall, not requiring more than a single prime lens and flash to start at a high level (or whatever equipment you already have if you're just testing the waters). But capturing the essence of a subject, or meeting the goals for your commercial project, can take a lifetime of work.",
         "img": "https://i.ibb.co/0fYskhH/fd6.jpg"
     },
@@ -43,19 +43,19 @@
     },
     {
         "id": 8,
-        "name": "Documentary",
+        "name": "Documentary Photography",
         "description": "Documentary photographers seek to convey news or information in their images. Sometimes, the photos depict a moment so striking that it crosses the line into art or otherwise causes viewers to have an emotional reaction. Documentary photography can happen anywhere, from local news stories to reporting directly from war zones. In the best of cases, documentary photos shed light on important yet little-known events, or celebrate the best examples of humanity for everyone to see. Not all documentary photos are newsworthy; sometimes, they simply document a different place or culture.",
         "img": "https://i.ibb.co/hfJg2Wc/fd8.jpg"
     },
     {
         "id": 9,
-        "name": "Sports",
+        "name": "Sports Photography",
         "description": "Another broad style of photography is sports photography, from international events like the Olympics to adventure-based photography in the most remote areas of the world. Even a parent photographing their child playing sports is part of this genre  a type of photography which requires top-notch autofocus skills, good timing, and often a very fast",
         "img": "https://i.ibb.co/rMPGGcV/fd9.jpg"
     },
     {
         "id": 10,
-        "name": "Fashion",
+        "name": "Fashion Photography",
         "description": "A cousin of portraiture, but distinct enough to count as its own genre, is fashion photography. This is a fast-paced world, and the best fashion photographers are intimately knowledgeable not just about lighting and photography but also the clothing styles they're photographing. Fashion photographs are usually intended for brands and advertisements, but not always, especially in today's Instagram world.",
         "img": "https://i.ibb.co/1q5TT04/fd10.jpg"
     },
@@ -73,7 +73,7 @@
     },
     {
         "id": 13,
-        "name": "Travel",
+        "name": "Travel Photography",
         "description": "One of the broadest types of people photography is travel  photographing life in another area of the world, whether portraits or candid images. Good travel photography captures the striking similarities and differences among people across the world, making us feel more connected and aware of how other people live.",
         "img": "https://i.ibb.co/XkJsDV8/fd13.jpg"
     },
@@ -85,13 +85,13 @@
     },
     {
         "id": 15,
-        "name": "Food",
+        "name": "Food Photography",
         "description": "Food photography has experienced a remarkable growth in popularity in recent years thanks to social media. Previously, it was essentially a sub-genre of commercial work  advertisements, cookbooks, menus, and so on  but it's becoming more a part of documentary photography today.",
         "img": "https://i.ibb.co/k8knPvr/fd15.jpg"
     },
     {
         "id": 16,
-        "name": "Architecture",
+        "name": "Architecture Photography",
         "description": "The last type of photography in this list is also one of the most popular: architectural photography, including cityscapes and other details of buildings and construction. In many ways, architecture is like “urban landscape” photography, with practitioners of both genres often using tripods and careful post-processing techniques to accentuate their subject as best as possible. However, architectural photography has the added difficulty of dealing with straight lines  not an easy task if you want to avoid a skewed or tilted look in the final photo.",
         "img": "https://i.ibb.co/x2HkFKZ/fd16.jpg"
     }

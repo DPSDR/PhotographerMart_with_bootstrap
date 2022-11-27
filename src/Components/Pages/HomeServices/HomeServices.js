@@ -4,8 +4,7 @@ import HomeService from './HomeService';
 
 const HomeServices = () => {
     const [data] = useData();
-    const sliceData = data.slice(0, 3)
-
+    const sliceData = data.slice(0, 3);
     return (
         <div>
             <div className="container" style={{ marginTop: '5rem', marginBottom: '5rem' }}>
