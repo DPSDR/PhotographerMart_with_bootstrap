@@ -4,6 +4,7 @@ import './Home.css';
 import HomeServices from '../HomeServices/HomeServices';
 import ElementorPriceOfferSection from './Sections/ElementorPriceOfferSection';
 import HowWeWork from './Sections/HowWeWork';
+import HomeImages from '../HomeImages/HomeImages';
 
 const Home = () => {
     return (
@@ -12,8 +13,7 @@ const Home = () => {
             <ElementorPriceOfferSection></ElementorPriceOfferSection>
             <HomeServices></HomeServices>
             <HowWeWork></HowWeWork>
-
-
+            <HomeImages></HomeImages>
         </div >
     );
 };
