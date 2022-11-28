@@ -1,4 +1,6 @@
 import React from 'react';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const Image = (props) => {
     const { img } = props.image;
@@ -6,7 +8,9 @@ const Image = (props) => {
     return (
         <div className="col-md-4">
             <div className="card">
-                <img src={img} className="card-img-top" alt="..." />
+                <Zoom>
+                    <img src={img} className="card-img-top" width="500" alt="..." />
+                </Zoom>
             </div>
         </div>
     );

@@ -5,6 +5,7 @@ import HomeServices from '../HomeServices/HomeServices';
 import ElementorPriceOfferSection from './Sections/ElementorPriceOfferSection';
 import HowWeWork from './Sections/HowWeWork';
 import HomeImages from '../HomeImages/HomeImages';
+import TeamMembers from './Sections/TeamMembers';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <HomeServices></HomeServices>
             <HowWeWork></HowWeWork>
             <HomeImages></HomeImages>
+            <TeamMembers></TeamMembers>
         </div >
     );
 };

@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
 import './Service.css'
 
 const Service = (props) => {
@@ -14,7 +16,9 @@ const Service = (props) => {
     return (
         <div className="col-md-4">
             <div className="card border border-warning rounded">
-                <img src={img} className="card-img-top" alt="..." />
+                <Zoom>
+                    <img src={img} className="card-img-top" alt="..." />
+                </Zoom>
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">
