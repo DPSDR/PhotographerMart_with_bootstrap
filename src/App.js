@@ -6,9 +6,9 @@ import Services from './Components/Pages/Services/Services';
 import Blog from './Components/Pages/Blog/Blog';
 import About from './Components/Pages/About/About'
 import Navbar from './Components/Header/Navbar/Navbar';
-import Signin from './Components/Login/SignIn/SignIn';
-import SignUp from './Components/Login/SignUp/SignUp';
 import Footer from './Components/Footer/Footer';
+import Login from './Components/Login/Login/Login';
+import Register from './Components/Login/Register/Register';
 
 function App() {
   return (
@@ -20,9 +20,10 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route to='/signin' element={<Signin></Signin>}></Route>
-        <Route to='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
+
       <Navbar></Navbar>
       <Footer></Footer>
     </div>

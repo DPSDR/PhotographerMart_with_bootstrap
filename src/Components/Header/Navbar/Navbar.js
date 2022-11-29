@@ -48,7 +48,7 @@ const Navbar = () => {
                             <CustomLink className="navbar-brand me-4" to='/about'>About</CustomLink>
                         </li>
                     </ul>
-                    <Link to='/signin'><Button variant="outline-warning">Signin</Button></Link>
+                    <Link to='/register'><Button variant="outline-warning">Register</Button></Link>
                 </div>
             </div>
         </nav>

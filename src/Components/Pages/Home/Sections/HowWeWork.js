@@ -13,7 +13,7 @@ const HowWeWork = () => {
                     <div className='d-flex align-items-center mb-4'>
                         <div class="elementor-icon-box-icon">
                             <span class="elementor-icon elementor-animation-bounce-out">
-                                <i className="fa fa-camera-retro" aria-hidden="true"></i>
+                                <i className="fa fa-book bootstrap-icon" aria-hidden="true"></i>
                             </span>
                         </div>
                         <div>
@@ -26,7 +26,7 @@ const HowWeWork = () => {
                     <div className='d-flex align-items-center mb-4'>
                         <div class="elementor-icon-box-icon">
                             <span class="elementor-icon elementor-animation-bounce-out">
-                                <i className="fa fa-book bootstrap-icon" aria-hidden="true"></i>
+                                <i className="fa fa-camera-retro" aria-hidden="true"></i>
                             </span>
                         </div>
                         <div>
