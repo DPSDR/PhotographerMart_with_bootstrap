@@ -1,12 +1,17 @@
 import React from 'react';
 import { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../../firebase.init';
 import CustomLink from '../../CustomLink/CustomLink';
 import './Navbar.css'
 
 
 const Navbar = () => {
+    const [user] = useAuthState(auth);
+    const [signOut] = useSignOut(auth);
+
     // change navbar bg color on scroll to #edededf2
     const [color, setColor] = useState(false);
     const changeColor = () => {
@@ -48,7 +53,12 @@ const Navbar = () => {
                             <CustomLink className="navbar-brand me-4" to='/about'>About</CustomLink>
                         </li>
                     </ul>
-                    <Link to='/register'><Button variant="outline-warning">Register</Button></Link>
+                    {
+                        user ?
+                            <Button onClick={() => signOut()} variant='outline-warning'>Sign Out</Button>
+                            :
+                            <Link to='/register'><Button variant="outline-warning">Register</Button></Link>
+                    }
                 </div>
             </div>
         </nav>
