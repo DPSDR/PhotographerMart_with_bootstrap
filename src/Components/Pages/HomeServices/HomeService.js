@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import { Link } from 'react-router-dom';
 
 const HomeService = (props) => {
     const { name, description, img } = props.singleData;
@@ -30,7 +31,8 @@ const HomeService = (props) => {
                             }
                         </span>
                     </p>
-                    <Button variant="outline-warning">Book a order</Button>
+                    <Link to='/checkout'><Button variant="outline-warning">Book a order</Button>
+                    </Link>
                 </div>
             </div>
         </div>
