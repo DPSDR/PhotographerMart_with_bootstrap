@@ -9,6 +9,7 @@ import Navbar from './Components/Header/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Login from './Components/Login/Login/Login';
 import Register from './Components/Login/Register/Register';
+import NotFound from './Components/Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/*' element={<NotFound></NotFound>}></Route>
       </Routes>
 
       <Navbar></Navbar>
