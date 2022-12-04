@@ -1,0 +1,14 @@
+.quote-box {
+    overflow: hidden;
+}
+
+.quotation-mark {
+    font-weight: bold;
+    font-size: 90px;
+    font-family: "Times New Roman", Georgia, Serif;
+    height: 60px;
+}
+
+.quote-text {
+    font-size: 19px;
+}
