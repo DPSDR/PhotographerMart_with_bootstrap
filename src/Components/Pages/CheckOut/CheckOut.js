@@ -2,7 +2,7 @@ import React from 'react';
 
 const CheckOut = () => {
     return (
-        <div className='text-center' style={{ margin: "6rem 0 6rem 0" }}>
+        <div className='text-center' style={{ margin: "6rem 0 6rem 0", height: '191px' }}>
             <h2 className='text-secondary'>This is checkout page</h2>
         </div>
     );

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: '#5c3c3c' }}>
+        <div className='footer' style={{ backgroundColor: '#5c3c3c' }}>
             <div className="container text-center mt-5" style={{ color: '#ffffffb0' }}>
                 <div className="row text-start">
                     <div className="col-md-4 col-sm-12 mt-4">
