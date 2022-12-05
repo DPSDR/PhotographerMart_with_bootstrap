@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_apiKey,
-    authDomain: process.env.REACT_APP_authDomain,
-    projectId: process.env.REACT_APP_projectId,
-    storageBucket: process.env.REACT_APP_storageBucket,
-    messagingSenderId: process.env.REACT_APP_messagingSenderId,
-    appId: process.env.REACT_APP_appId
+    apiKey: 'AIzaSyDrn94IyhmH7BVLPBB67C2IGC5JPcTSwg0',
+    authDomain: 'photographermart-fcd63.firebaseapp.com',
+    projectId: 'photographermart-fcd63',
+    storageBucket: 'photographermart-fcd63.appspot.com',
+    messagingSenderId: '748070019590',
+    appId: '1:748070019590:web:671429751ae7f916945987'
 };
 
 // Initialize Firebase
